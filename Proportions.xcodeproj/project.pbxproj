@@ -19,9 +19,9 @@
 		DD7347381EE4567C00E681A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD73473A1EE4567C00E681A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD73473D1EE4567C00E681A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DD73473F1EE4567C00E681A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD73473F1EE4567C00E681A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Proportions/Assets.xcassets; sourceTree = "<group>"; };
 		DD7347421EE4567C00E681A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DD7347441EE4567C00E681A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7347441EE4567C00E681A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Proportions/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +38,7 @@
 		DD73472C1EE4567C00E681A7 = {
 			isa = PBXGroup;
 			children = (
+				DD73474A1EE456EA00E681A7 /* Supporing Files */,
 				DD7347371EE4567C00E681A7 /* Proportions */,
 				DD7347361EE4567C00E681A7 /* Products */,
 			);
@@ -57,11 +58,18 @@
 				DD7347381EE4567C00E681A7 /* AppDelegate.swift */,
 				DD73473A1EE4567C00E681A7 /* ViewController.swift */,
 				DD73473C1EE4567C00E681A7 /* Main.storyboard */,
-				DD73473F1EE4567C00E681A7 /* Assets.xcassets */,
-				DD7347411EE4567C00E681A7 /* LaunchScreen.storyboard */,
-				DD7347441EE4567C00E681A7 /* Info.plist */,
 			);
 			path = Proportions;
+			sourceTree = "<group>";
+		};
+		DD73474A1EE456EA00E681A7 /* Supporing Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD7347411EE4567C00E681A7 /* LaunchScreen.storyboard */,
+				DD7347441EE4567C00E681A7 /* Info.plist */,
+				DD73473F1EE4567C00E681A7 /* Assets.xcassets */,
+			);
+			name = "Supporing Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +167,7 @@
 				DD7347421EE4567C00E681A7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = Proportions;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
