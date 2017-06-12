@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -257,6 +257,9 @@
                                 <rect key="frame" x="24" y="41" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="mostrar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q2f-Ub-6qo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIB-ai-GNg">
                                 <rect key="frame" x="58" y="41" width="30" height="30"/>
@@ -274,11 +277,14 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="dollarFiver" destination="6ow-HU-L3b" id="KPX-wH-XAT"/>
+                        <outlet property="dollarTen" destination="Oqh-EW-h1a" id="JvB-K2-adV"/>
                         <outlet property="resultFive" destination="okK-5i-a8U" id="TVs-3t-Q6e"/>
                         <outlet property="resultFour" destination="CLv-yy-Ctd" id="0yQ-0M-eh3"/>
                         <outlet property="resultOne" destination="FHj-Yz-alQ" id="HkG-wu-Nnf"/>
                         <outlet property="resultThree" destination="pgz-q9-MbL" id="maR-Qr-VDO"/>
                         <outlet property="resultTwo" destination="ozE-cl-Xmt" id="upz-cE-P59"/>
+                        <outlet property="unFive" destination="k8H-KR-0d4" id="aGB-aW-mIV"/>
                         <outlet property="unitFive" destination="51f-y4-If2" id="mig-qw-cfj"/>
                         <outlet property="unitFour" destination="vrd-bB-S9f" id="U9b-IR-GhK"/>
                         <outlet property="unitOne" destination="2UN-Al-aXh" id="fsR-09-Lfc"/>

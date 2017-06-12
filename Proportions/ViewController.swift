@@ -77,11 +77,28 @@ class ViewController: UIViewController {
         standard.setValue (valueFive.text, forKey: keyTen)
     }
     
+    @IBOutlet weak var dollarTen: UILabel!
+    @IBOutlet weak var dollarFiver: UILabel!
+    @IBOutlet weak var unFive: UILabel!
     @IBAction func ocultar(_ sender: Any)
     {
         resultFive.isHidden = true
+        valueFive.isHidden = true
+        unitFive.isHidden = true
+        dollarFiver.isHidden = true
+        unFive.isHidden = true
+        dollarTen.isHidden = true
     }
     
+    @IBAction func mostrar(_ sender: Any)
+    {
+        resultFive.isHidden = false
+        valueFive.isHidden = false
+        unitFive.isHidden = false
+        dollarFiver.isHidden = false
+        unFive.isHidden = false
+        dollarTen.isHidden = true
+    }
     
     override func viewDidLoad()
     {
